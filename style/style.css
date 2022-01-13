@@ -41,8 +41,14 @@ grid-template-columns: repeat(2, 1fr);}
 .blog-info{margin-left: 16px;}
 .blog-title{font-size: 20px;}
 /* course styles */
+.courses{display: grid;
+    grid-template-columns: repeat(3, 1fr);
+grid-column-gap: 24px;}
 .course .course-banner img{width: 224px;
     height: 104px;}
+.course-info{display: flex;
+align-items: center;
+justify-content:space-between ;}
 .fa-star.filled{
     color: #FFC014;
 }
